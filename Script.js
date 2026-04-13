@@ -1,8 +1,8 @@
-var contenitoreImmagini = document.getElementsByClassName("contenitoreImmagini");
-var contatore;
+let contenitoreImmagini = document.getElementsByClassName("contenitoreImmagini");
+let contatore;
 for (contatore = 0; contatore < contenitoreImmagini.length; contatore++) {
 contenitoreImmagini[contatore].onclick = function(){
-var panel = this.nextElementSibling;
+let panel = this.nextElementSibling;
 if (panel.style.display === "block") {
 panel.style.display = "none";
 } else {
@@ -26,177 +26,177 @@ document.documentElement.scrollTop = 0;
 
 function OnePunchMan(){
 document.getElementById('O').style.display='block';
-var onePunchMan = document.getElementById('One-Punch Man');
-var onePunchManRect = onePunchMan.getBoundingClientRect();
-var absoluteOnePunchManTop = onePunchManRect.top + window.pageYOffset;
-var scroll = absoluteOnePunchManTop - (window.innerHeight / 1.5);
+let onePunchMan = document.getElementById('One-Punch Man');
+let onePunchManRect = onePunchMan.getBoundingClientRect();
+let absoluteOnePunchManTop = onePunchManRect.top + window.pageYOffset;
+let scroll = absoluteOnePunchManTop - (window.innerHeight / 1.5);
 window.scrollTo(0, scroll);
 }
 
 function Toradora(){
 document.getElementById('T').style.display='block';
-var toradora = document.getElementById('Toradora!');
-var toradoraRect = toradora.getBoundingClientRect();
-var absoluteToradoraTop = toradoraRect.top + window.pageYOffset;
-var scroll = absoluteToradoraTop - (window.innerHeight / 1.5);
+let toradora = document.getElementById('Toradora!');
+let toradoraRect = toradora.getBoundingClientRect();
+let absoluteToradoraTop = toradoraRect.top + window.pageYOffset;
+let scroll = absoluteToradoraTop - (window.innerHeight / 1.5);
 window.scrollTo(0, scroll);
 }
 
 function Another(){
 document.getElementById('A').style.display='block';
-var another = document.getElementById('Another');
-var anotherRect = another.getBoundingClientRect();
-var absoluteAnotherTop = anotherRect.top + window.pageYOffset;
-var scroll = absoluteAnotherTop - (window.innerHeight / 1.5);
+let another = document.getElementById('Another');
+let anotherRect = another.getBoundingClientRect();
+let absoluteAnotherTop = anotherRect.top + window.pageYOffset;
+let scroll = absoluteAnotherTop - (window.innerHeight / 1.5);
 window.scrollTo(0, scroll);
 }
 
 function EromangaSensei(){
 document.getElementById('E').style.display='block';
-var eromangaSensei = document.getElementById('Eromanga-sensei');
-var eromangaSenseiRect = eromangaSensei.getBoundingClientRect();
-var absoluteEromangaSenseiTop = eromangaSenseiRect.top + window.pageYOffset;
-var scroll = absoluteEromangaSenseiTop - (window.innerHeight / 1.5);
+let eromangaSensei = document.getElementById('Eromanga-sensei');
+let eromangaSenseiRect = eromangaSensei.getBoundingClientRect();
+let absoluteEromangaSenseiTop = eromangaSenseiRect.top + window.pageYOffset;
+let scroll = absoluteEromangaSenseiTop - (window.innerHeight / 1.5);
 window.scrollTo(0, scroll);
 }
 
 function AnoHana(){
 document.getElementById('A').style.display='block';
-var anoHana = document.getElementById('Ano Hana');
-var anoHanaRect = anoHana.getBoundingClientRect();
-var absoluteAnoHanaTop = anoHanaRect.top + window.pageYOffset;
-var scroll = absoluteAnoHanaTop - (window.innerHeight / 1.5);
+let anoHana = document.getElementById('Ano Hana');
+let anoHanaRect = anoHana.getBoundingClientRect();
+let absoluteAnoHanaTop = anoHanaRect.top + window.pageYOffset;
+let scroll = absoluteAnoHanaTop - (window.innerHeight / 1.5);
 window.scrollTo(0, scroll);
 }
 
 function AbsoluteDuo(){
 document.getElementById('A').style.display='block';
-var absoluteDuo = document.getElementById('Absolute Duo');
-var absoluteDuoRect = absoluteDuo.getBoundingClientRect();
-var absoluteAbsoluteDuoTop = absoluteDuoRect.top + window.pageYOffset;
-var scroll = absoluteAbsoluteDuoTop - (window.innerHeight / 1.5);
+let absoluteDuo = document.getElementById('Absolute Duo');
+let absoluteDuoRect = absoluteDuo.getBoundingClientRect();
+let absoluteAbsoluteDuoTop = absoluteDuoRect.top + window.pageYOffset;
+let scroll = absoluteAbsoluteDuoTop - (window.innerHeight / 1.5);
 window.scrollTo(0, scroll);
 }
 
 function AooniTheBlueMonster(){
 document.getElementById('A').style.display='block';
-var aooniTheBlueMonster = document.getElementById('Aooni The Blue Monster');
-var aooniTheBlueMonsterRect = aooniTheBlueMonster.getBoundingClientRect();
-var absoluteAooniTheBlueMonsterTop = aooniTheBlueMonsterRect.top + window.pageYOffset;
-var scroll = absoluteAooniTheBlueMonsterTop - (window.innerHeight / 1.5);
+let aooniTheBlueMonster = document.getElementById('Aooni The Blue Monster');
+let aooniTheBlueMonsterRect = aooniTheBlueMonster.getBoundingClientRect();
+let absoluteAooniTheBlueMonsterTop = aooniTheBlueMonsterRect.top + window.pageYOffset;
+let scroll = absoluteAooniTheBlueMonsterTop - (window.innerHeight / 1.5);
 window.scrollTo(0, scroll);
 }
 
 function HighschoolOfTheDead(){
 document.getElementById('H').style.display='block';
-var highschoolOfTheDead = document.getElementById('Highschool of the Dead');
-var highschoolOfTheDeadRect = highschoolOfTheDead.getBoundingClientRect();
-var absoluteHighschoolOfTheDeadTop = highschoolOfTheDeadRect.top + window.pageYOffset;
-var scroll = absoluteHighschoolOfTheDeadTop - (window.innerHeight / 1.5);
+let highschoolOfTheDead = document.getElementById('Highschool of the Dead');
+let highschoolOfTheDeadRect = highschoolOfTheDead.getBoundingClientRect();
+let absoluteHighschoolOfTheDeadTop = highschoolOfTheDeadRect.top + window.pageYOffset;
+let scroll = absoluteHighschoolOfTheDeadTop - (window.innerHeight / 1.5);
 window.scrollTo(0, scroll);
 }
 
 function KissXsis(){
 document.getElementById('K').style.display='block';
-var kissXsis = document.getElementById('KissxSis');
-var kissXsisRect = kissXsis.getBoundingClientRect();
-var absoluteKissXsisTop = kissXsisRect.top + window.pageYOffset;
-var scroll = absoluteKissXsisTop - (window.innerHeight / 1.5);
+let kissXsis = document.getElementById('KissxSis');
+let kissXsisRect = kissXsis.getBoundingClientRect();
+let absoluteKissXsisTop = kissXsisRect.top + window.pageYOffset;
+let scroll = absoluteKissXsisTop - (window.innerHeight / 1.5);
 window.scrollTo(0, scroll);
 }
 
 function LattaccoDeiGiganti(){
 document.getElementById('L').style.display='block';
-var lattaccoDeiGiganti = document.getElementById("L'attacco dei giganti");
-var lattaccoDeiGigantiRect = lattaccoDeiGiganti.getBoundingClientRect();
-var absoluteLattaccoDeiGigantiTop = lattaccoDeiGigantiRect.top + window.pageYOffset;
-var scroll = absoluteLattaccoDeiGigantiTop - (window.innerHeight / 1.5);
+let lattaccoDeiGiganti = document.getElementById("L'attacco dei giganti");
+let lattaccoDeiGigantiRect = lattaccoDeiGiganti.getBoundingClientRect();
+let absoluteLattaccoDeiGigantiTop = lattaccoDeiGigantiRect.top + window.pageYOffset;
+let scroll = absoluteLattaccoDeiGigantiTop - (window.innerHeight / 1.5);
 window.scrollTo(0, scroll);
 }
 
 function TokyoGhoul(){
 document.getElementById('T').style.display='block';
-var tokyoGhoul = document.getElementById('Tokyo Ghoul');
-var tokyoGhoulRect = tokyoGhoul.getBoundingClientRect();
-var absoluteTokyoGhoulTop = tokyoGhoulRect.top + window.pageYOffset;
-var scroll = absoluteTokyoGhoulTop - (window.innerHeight / 1.5);
+let tokyoGhoul = document.getElementById('Tokyo Ghoul');
+let tokyoGhoulRect = tokyoGhoul.getBoundingClientRect();
+let absoluteTokyoGhoulTop = tokyoGhoulRect.top + window.pageYOffset;
+let scroll = absoluteTokyoGhoulTop - (window.innerHeight / 1.5);
 window.scrollTo(0, scroll);
 }
 
 function TokyoGhoulVa(){
 document.getElementById('T').style.display='block';
-var tokyoGhoulVa = document.getElementById('Tokyo Ghoul vA');
-var tokyoGhoulVaRect = tokyoGhoulVa.getBoundingClientRect();
-var absoluteTokyoGhoulVaTop = tokyoGhoulVaRect.top + window.pageYOffset;
-var scroll = absoluteTokyoGhoulVaTop - (window.innerHeight / 1.5);
+let tokyoGhoulVa = document.getElementById('Tokyo Ghoul vA');
+let tokyoGhoulVaRect = tokyoGhoulVa.getBoundingClientRect();
+let absoluteTokyoGhoulVaTop = tokyoGhoulVaRect.top + window.pageYOffset;
+let scroll = absoluteTokyoGhoulVaTop - (window.innerHeight / 1.5);
 window.scrollTo(0, scroll);
 }
 
-var modal = document.getElementById('modalFlixGrab');
-var immagine = document.getElementById('immagineFlixGrab');
-var immagineModal = document.getElementById('immagine1');
+let modal = document.getElementById('modalFlixGrab');
+let immagine = document.getElementById('immagineFlixGrab');
+let immagineModal = document.getElementById('immagine1');
 immagine.onclick = function(){
 modal.style.display = "block";
 immagineModal.src = this.src;
 }
-var span = document.getElementsByClassName("x")[0];
+let span = document.getElementsByClassName("x")[0];
 span.onclick = function() {
 modal.style.display = "none";
 }
 
-var modal1 = document.getElementById('modal1FlixGrab');
-var immagine1 = document.getElementById('immagine1FlixGrab');
-var immagineModal1 = document.getElementById('immagine2');
+let modal1 = document.getElementById('modal1FlixGrab');
+let immagine1 = document.getElementById('immagine1FlixGrab');
+let immagineModal1 = document.getElementById('immagine2');
 immagine1.onclick = function(){
 modal1.style.display = "block";
 immagineModal1.src = this.src;
 }
-var span1 = document.getElementsByClassName("x1")[0];
+let span1 = document.getElementsByClassName("x1")[0];
 span1.onclick = function() {
 modal1.style.display = "none";
 }
 
 function SteinsGate(){
 document.getElementById('S').style.display='block';
-var steinsGate = document.getElementById('Steins;Gate');
-var steinsGateRect = steinsGate.getBoundingClientRect();
-var absoluteSteinsGateTop = steinsGateRect.top + window.pageYOffset;
-var scroll = absoluteSteinsGateTop - (window.innerHeight / 1.5);
+let steinsGate = document.getElementById('Steins;Gate');
+let steinsGateRect = steinsGate.getBoundingClientRect();
+let absoluteSteinsGateTop = steinsGateRect.top + window.pageYOffset;
+let scroll = absoluteSteinsGateTop - (window.innerHeight / 1.5);
 window.scrollTo(0, scroll);
 }
 
 function Nisekoi(){
 document.getElementById('N').style.display='block';
-var nisekoi = document.getElementById('Nisekoi');
-var nisekoiRect = nisekoi.getBoundingClientRect();
-var absoluteNisekoiTop = nisekoiRect.top + window.pageYOffset;
-var scroll = absoluteNisekoiTop - (window.innerHeight / 1.5);
+let nisekoi = document.getElementById('Nisekoi');
+let nisekoiRect = nisekoi.getBoundingClientRect();
+let absoluteNisekoiTop = nisekoiRect.top + window.pageYOffset;
+let scroll = absoluteNisekoiTop - (window.innerHeight / 1.5);
 window.scrollTo(0, scroll);
 }
 
 function NisekoiDue(){
 document.getElementById('N').style.display='block';
-var nisekoiDue = document.getElementById('Nisekoi:');
-var nisekoiDueRect = nisekoiDue.getBoundingClientRect();
-var absoluteNisekoiDueTop = nisekoiDueRect.top + window.pageYOffset;
-var scroll = absoluteNisekoiDueTop - (window.innerHeight / 1.5);
+let nisekoiDue = document.getElementById('Nisekoi:');
+let nisekoiDueRect = nisekoiDue.getBoundingClientRect();
+let absoluteNisekoiDueTop = nisekoiDueRect.top + window.pageYOffset;
+let scroll = absoluteNisekoiDueTop - (window.innerHeight / 1.5);
 window.scrollTo(0, scroll);
 }
 
 function ClockworkPlanet(){
 document.getElementById('C').style.display='block';
-var clockworkPlanet = document.getElementById('Clockwork Planet');
-var clockworkPlanetRect = clockworkPlanet.getBoundingClientRect();
-var absoluteClockworkPlanetTop = clockworkPlanetRect.top + window.pageYOffset;
-var scroll = absoluteClockworkPlanetTop - (window.innerHeight / 1.5);
+let clockworkPlanet = document.getElementById('Clockwork Planet');
+let clockworkPlanetRect = clockworkPlanet.getBoundingClientRect();
+let absoluteClockworkPlanetTop = clockworkPlanetRect.top + window.pageYOffset;
+let scroll = absoluteClockworkPlanetTop - (window.innerHeight / 1.5);
 window.scrollTo(0, scroll);
 }
 
 function SukaSuka(){
 document.getElementById('C').style.display='block';
-var sukaSuka = document.getElementById('SukaSuka');
-var sukaSukaRect = sukaSuka.getBoundingClientRect();
-var absoluteSukaSukaTop = sukaSukaRect.top + window.pageYOffset;
-var scroll = absoluteSukaSukaTop - (window.innerHeight / 1.5);
+let sukaSuka = document.getElementById('SukaSuka');
+let sukaSukaRect = sukaSuka.getBoundingClientRect();
+let absoluteSukaSukaTop = sukaSukaRect.top + window.pageYOffset;
+let scroll = absoluteSukaSukaTop - (window.innerHeight / 1.5);
 window.scrollTo(0, scroll);
 }
