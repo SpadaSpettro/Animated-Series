@@ -1,4 +1,4 @@
-###### Animated Series
+# Animated Series
 
 A website dedicated to anime and animated content, providing the best platforms to watch your favourite Animated Series!
 
@@ -8,6 +8,6 @@ A website dedicated to anime and animated content, providing the best platforms 
 
 
 
-###### Languages ​​used:
+## Languages ​​used
 
 HTML 5, CSS 3, JavaScript.
