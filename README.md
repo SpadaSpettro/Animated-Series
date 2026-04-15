@@ -11,4 +11,3 @@ A website dedicated to anime and animated content, providing the best platforms 
 ###### Languages ​​used:
 
 HTML 5, CSS 3, JavaScript.
-

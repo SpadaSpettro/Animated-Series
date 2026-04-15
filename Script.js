@@ -24,6 +24,7 @@ document.body.scrollTop = 0;
 document.documentElement.scrollTop = 0;
 }
 
+// Funzione per mostrare il fieldset e scorrere alla posizione della serie
 function riferimento(idFieldset, idSerie){
 document.getElementById(idFieldset).style.display='block';
 var serie = document.getElementById(idSerie);
@@ -58,12 +59,13 @@ modal1.style.display = "none";
 var contenitoreImmagini = document.getElementsByClassName("contenitoreImmagini");
 var contatore;
 for (contatore = 0; contatore < contenitoreImmagini.length; contatore++) {
-contenitoreImmagini[contatore].onclick = function(){
+   contenitoreImmagini[contatore].onclick = function(){
 var panel = this.nextElementSibling;
 if (panel.style.display === "block") {
 panel.style.display = "none";
 } else {
 panel.style.display = "block";
+}
 }
 }
 }
