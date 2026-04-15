@@ -7,3 +7,8 @@
 # File da escludere
 *.txt
 *.log
+*.tmp
+*.bak
+*.mp4
+*.avi
+*.mkv
