@@ -1,8 +1,8 @@
-var contenitoreImmagini = document.getElementsByClassName("contenitoreImmagini");
-var contatore;
+let contenitoreImmagini = document.getElementsByClassName("contenitoreImmagini");
+let contatore;
 for (contatore = 0; contatore < contenitoreImmagini.length; contatore++) {
 contenitoreImmagini[contatore].onclick = function(){
-var panel = this.nextElementSibling;
+let panel = this.nextElementSibling;
 if (panel.style.display === "block") {
 panel.style.display = "none";
 } else {
@@ -27,40 +27,41 @@ document.documentElement.scrollTop = 0;
 // Funzione per mostrare il fieldset e scorrere alla posizione della serie
 function riferimento(idFieldset, idSerie){
 document.getElementById(idFieldset).style.display='block';
-var serie = document.getElementById(idSerie);
-var serieRect = serie.getBoundingClientRect();
-var absoluteSerieTop = serieRect.top + window.pageYOffset;
-var scroll = absoluteSerieTop - (window.innerHeight / 1.5);
+let serie = document.getElementById(idSerie);
+let serieRect = serie.getBoundingClientRect();
+let absoluteSerieTop = serieRect.top + window.pageYOffset;
+let scroll = absoluteSerieTop - (window.innerHeight / 1.5);
 window.scrollTo(0, scroll);
 }
 
-var modal = document.getElementById('modalFlixGrab');
-var immagine = document.getElementById('immagineFlixGrab');
-var immagineModal = document.getElementById('immagine1');
+let modal = document.getElementById('modalFlixGrab');
+let immagine = document.getElementById('immagineFlixGrab');
+let immagineModal = document.getElementById('immagine1');
 immagine.onclick = function(){
 modal.style.display = "block";
 immagineModal.src = this.src;
 }
-var span = document.getElementsByClassName("x")[0];
+let span = document.getElementsByClassName("x")[0];
 span.onclick = function() {
 modal.style.display = "none";
 }
 
-var modal1 = document.getElementById('modal1FlixGrab');
-var immagine1 = document.getElementById('immagine1FlixGrab');
-var immagineModal1 = document.getElementById('immagine2');
+let modal1 = document.getElementById('modal1FlixGrab');
+let immagine1 = document.getElementById('immagine1FlixGrab');
+let immagineModal1 = document.getElementById('immagine2');
 immagine1.onclick = function(){
 modal1.style.display = "block";
 immagineModal1.src = this.src;
 }
-var span1 = document.getElementsByClassName("x1")[0];
+let span1 = document.getElementsByClassName("x1")[0];
 span1.onclick = function() {
 modal1.style.display = "none";
-var contenitoreImmagini = document.getElementsByClassName("contenitoreImmagini");
-var contatore;
+
+let contenitoreImmagini = document.getElementsByClassName("contenitoreImmagini");
+let contatore;
 for (contatore = 0; contatore < contenitoreImmagini.length; contatore++) {
    contenitoreImmagini[contatore].onclick = function(){
-var panel = this.nextElementSibling;
+let panel = this.nextElementSibling;
 if (panel.style.display === "block") {
 panel.style.display = "none";
 } else {
@@ -85,33 +86,14 @@ document.documentElement.scrollTop = 0;
 
 function riferimento(idFieldset, idSerie){
 document.getElementById(idFieldset).style.display='block';
-var serie = document.getElementById(idSerie);
-var serieRect = serie.getBoundingClientRect();
-var absoluteSerieTop = serieRect.top + window.pageYOffset;
-var scroll = absoluteSerieTop - (window.innerHeight / 1.5);
+let serie = document.getElementById(idSerie);
+let serieRect = serie.getBoundingClientRect();
+let absoluteSerieTop = serieRect.top + window.pageYOffset;
+let scroll = absoluteSerieTop - (window.innerHeight / 1.5);
 window.scrollTo(0, scroll);
 }
 
-var modal = document.getElementById('modalFlixGrab');
-var immagine = document.getElementById('immagineFlixGrab');
-var immagineModal = document.getElementById('immagine1');
-immagine.onclick = function(){
-modal.style.display = "block";
-immagineModal.src = this.src;
-}
-var span = document.getElementsByClassName("x")[0];
-span.onclick = function() {
-modal.style.display = "none";
-}
-
-var modal1 = document.getElementById('modal1FlixGrab');
-var immagine1 = document.getElementById('immagine1FlixGrab');
-var immagineModal1 = document.getElementById('immagine2');
-immagine1.onclick = function(){
-modal1.style.display = "block";
-immagineModal1.src = this.src;
-}
-var span1 = document.getElementsByClassName("x1")[0];
-span1.onclick = function() {
-modal1.style.display = "none";
+function transizione(elemento){
+   elemento.style.display = "none";
+   document.getElementById("transizioneFine").style.display = "block";
 }
