@@ -1,0 +1,9 @@
+# Cartelle da escludere
+/Episodi
+/Immagini/Archivio
+/Immagini/Yuriko
+/Prova
+
+# File da escludere
+*.txt
+*.log

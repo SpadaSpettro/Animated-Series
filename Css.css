@@ -1,0 +1,268 @@
+﻿body {
+margin-top: 11px;
+margin-left: 9px;
+font-family: arial;
+color: #ff7f50;
+overflow-x: hidden;
+background-image: url("Immagini/Blue.jpg");
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+p {
+text-align: center;
+}
+.nome {
+font-weight: bold;
+color: #c0c0c0;
+}
+.logo {
+vertical-align: top;
+width: 50px;
+height: 49px;
+}
+.notizie0 {
+max-height: 150px;
+overflow: auto;
+width: 38.7%;
+margin: auto;
+border-style: solid;
+border-width: 2px;
+border-right-color: #e3e3e3;
+border-bottom-color: #e3e3e3;
+border-left-color: #696969;
+border-top-color: #696969;
+background-color: black;
+background-image: url("Immagini/Blue.jpg");
+background-size: cover;
+}
+.notizie {
+padding: 0 0 1.7% 1.8%;
+}
+h3 {
+text-align: center;
+color: #c0c0c0;
+}
+.silver {
+color: #c0c0c0;
+}
+.fakeLink {
+color: #0066cc;
+text-decoration: underline;
+cursor: pointer;
+}
+.consigliati {
+position: absolute;
+top: 86px;
+right: 6%;
+width: 13%;
+border-style: solid;
+border-width: 2px;
+border-right-color: #e3e3e3;
+border-bottom-color: #e3e3e3;
+border-left-color: #696969;
+border-top-color: #696969;
+background-color: #23a7f1;
+overflow: hidden;
+max-width: 170px;
+/* Inizio caratteristiche immagine principale FlixGrab */
+}
+#flixGrab {
+width: 100%;
+transform: scale(1.07, 1.07);
+}
+#flixGrab:hover {
+opacity: 0.5;
+}
+/* Fine caratteristiche immagine principale FlixGrab */
+h2 {
+text-align: center;
+color: #c0c0c0;
+}
+.red {
+color: red;
+}
+/* Inizio caratteristiche contenitore immagini */
+.contenitoreImmagini {
+cursor: pointer;
+border-left-style: none;
+border-bottom-style: none;
+border-right-style: none;
+padding: 0%;
+border-top-style: outset;
+}
+.panel {
+display: none;
+}
+/* Fine caratteristiche contenitore immagini */
+/* Inizio caratteristiche zoom immagini */
+#imgZoom {
+-webkit-transition-duration: 0.2s;
+transition-duration: 0.2s;
+-ms-transition-duration: 0.2s;
+-moz-transition-duration: 0.2s;
+-o-transition-duration: 0.2s;
+-webkit-transition-timing-function: ease-in-out;
+transition-timing-function: ease-in-out;
+-ms-transition-timing-function: ease-in-out;
+-o-transition-timing-function: ease-in-out;
+-moz-transition-timing-function: ease-in-out;
+width: 49.5%;
+}
+#imgZoom:hover, #imgZoom0:hover {
+-moz-transform: scale(1.07, 1.07);
+-webkit-transform: scale(1.07, 1.07);
+transform: scale(1.07, 1.07);
+-ms-transform: scale(1.07, 1.07);
+-o-transform: scale(1.07, 1.07);
+}
+#imgZoom:active, #imgZoom0:active {
+-moz-transform: scale(0.93, 0.93);
+-webkit-transform: scale(0.93, 0.93);
+transform: scale(0.93, 0.93);
+-ms-transform: scale(0.93, 0.93);
+-o-transform: scale(0.93, 0.93);
+}
+#imgZoom0 {
+-webkit-transition-duration: 0.2s;
+transition-duration: 0.2s;
+-ms-transition-duration: 0.2s;
+-moz-transition-duration: 0.2s;
+-o-transition-duration: 0.2s;
+-webkit-transition-timing-function: ease-in-out;
+transition-timing-function: ease-in-out;
+-ms-transition-timing-function: ease-in-out;
+-o-transition-timing-function: ease-in-out;
+-moz-transition-timing-function: ease-in-out;
+position: fixed;
+top: 50%;
+left: 50%;
+margin-top: -113px;
+margin-left: -114.5px;
+}
+/* Fine caratteristiche zoom immagini */
+/* Inizio caratteristiche del bottone "Torna in cima" */
+#tornaInCima {
+display: none;
+position: fixed;
+bottom: 1.8%;
+right: 1.25%;
+z-index: 99;
+border: solid;
+border-width: 2px;
+outline: none;
+background-color: #cd853f;
+color: #dcdcdc;
+cursor: pointer;
+padding: 16px;
+border-radius: 8px;
+}
+#tornaInCima:hover {
+background-color: #ff7f50;
+}
+/* Fine caratteristiche del bottone "Torna in cima" */
+h1 {
+text-align: center;
+color: #c0c0c0;
+}
+/* Inizio caratteristiche del pop-up "Concluso" */
+.popupConcluso {
+position: relative;
+display: inline-block;
+border-bottom: 1px dotted #c0c0c0;
+}
+.popupConcluso .testoPopupConcluso {
+visibility: hidden;
+width: 150px;
+background-color: #131313;
+color: #c0c0c0;
+text-align: center;
+padding: 5px 0;
+border-radius: 8px;
+position: absolute;
+z-index: 1;
+bottom: 125%;
+left: 137%;
+margin-left: -60px;
+opacity: 0;
+transition: opacity 1s;
+font-size: medium;
+font-weight: normal;
+}
+.popupConcluso .testoPopupConcluso::after {
+content: "";
+position: absolute;
+top: 99.4%;
+left: 12%;
+margin-left: -5px;
+border-width: 7px;
+border-style: solid;
+border-color: #131313 transparent transparent transparent;
+}
+.popupConcluso:hover .testoPopupConcluso {
+visibility: visible;
+opacity: 1;
+}
+/* Fine caratteristiche del pop-up "Concluso" */
+#immagineFlixGrab, #immagine1FlixGrab {
+cursor: pointer;
+width: 33%;
+transition: 0.3s;
+}
+iframe {
+border-style: none;
+width: 9.8%;
+}
+/* Inizio caratteristiche immagini secondarie FlixGrab */
+#immagineFlixGrab:hover, #immagine1FlixGrab:hover {
+-moz-transform: scale(1.02, 1.02);
+-webkit-transform: scale(1.02, 1.02);
+transform: scale(1.02, 1.02);
+-ms-transform: scale(1.02, 1.02);
+-o-transform: scale(1.02, 1.02);
+}
+.modalFlixGrab, .modal1FlixGrab {
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 14.5%;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0,0.9);
+}
+.contenutoModalFlixGrab, .contenutoModal1FlixGrab {
+margin: auto;
+display: block;
+width: 80%;
+max-width: 700px;
+animation-name: modal;
+animation-duration: 0.6s;
+}
+@keyframes modal {
+from {transform:scale(0)}
+to {transform:scale(1)}
+}
+.x, .x1 {
+position: absolute;
+top: 15px;
+right: 35px;
+color: #f1f1f1;
+font-size: 40px;
+font-weight: bold;
+transition: 0.3s;
+}
+.x:hover, .x:focus, .x1:hover, .x1:focus {
+color: #bbb;
+cursor: pointer;
+}
+@media only screen and (max-width: 700px){
+.contenutoModalFlixGrab, contenutoModal1FlixGrab {width: 100%}
+}
+/* Fine caratteristiche immagini secondarie FlixGrab */
+.lightblue {
+color: #48d1cc;
+}
