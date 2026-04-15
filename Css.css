@@ -264,8 +264,9 @@ cursor: pointer;
 }
 /* Fine caratteristiche immagini secondarie FlixGrab */
 .lightblue {
-color: #48d1cc;
-﻿body {
+   color: #48d1cc;
+}
+body {
 margin-top: 11px;
 margin-left: 9px;
 font-family: arial;
@@ -531,5 +532,5 @@ cursor: pointer;
 }
 /* Fine caratteristiche immagini secondarie FlixGrab */
 .lightblue {
-color: #48d1cc;
+   color: #48d1cc;
 }
